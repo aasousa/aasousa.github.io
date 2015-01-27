@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,300,700);
 
-body {
-
-    /*background-color: #FAFAFA;*/
-}
-
 #main img { margin: auto; text-align: center; padding: 1px; float: center; width: 20%; border: none; }
 /*--------------------------------------------------------------------------------------------------*/
 #header {
@@ -76,7 +71,7 @@ body {
 	position: relative;
 	text-align: center;
 	padding: 1px;
-	bottom: -8px;
+	bottom: 0px;
 }
 /*--------------------------------------------------------------------------------------------------*/
 #header a,p,h1,h2,h3,h4,h5,h6 {
