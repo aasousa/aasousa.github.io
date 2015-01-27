@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,300,700);
+
+body {
+
+    /*background-color: #FAFAFA;*/
+}
+
+#main img { margin: auto; text-align: center; padding: 1px; float: center; width: 20%; border: none; }
+/*--------------------------------------------------------------------------------------------------*/
+#header {
+	margin: 0px -8px 10px -8px;
+	box-shadow: 0 0 20px #2D2D2D;
+	background-color: #FFFFFF;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+    padding: 1px;
+	top: 0px;
+}
+#main {
+	background-color: #F5F5F5;
+	box-shadow: #2D2D2D 0 0 20px;
+	border-style: solid;
+	border-color: #E2E2E2;
+	border-width: 1px;
+	margin: 100px auto 50px auto;
+	width: 980px;
+	padding: 0px;
+	box-sizing: content-box;
+}
+#pagina {   
+	margin: 0px -8px 0px -8px;
+	box-shadow: 0 0 20px #2D2D2D;
+	background-color: #F1F1F1;
+	text-align: center;
+	position: static;
+	float: center;
+	padding: 1px;	
+}
+#content {
+	background-color: #FFFFFF;
+	border-right: #E2E2E2;
+	border-right-style: solid;
+	border-right-width: 1px;
+	margin: 0px;
+	width: 600px;
+	padding: 50px;
+	box-sizing: content-box;
+}
+#bar {
+	margin: 0px 0px auto 0px;
+	text-align: center;
+	width: 200px;
+	float: right;
+	padding: 40px;
+}
+#links img {
+	background-image: url(img/binding_light.png);
+	background-repeat: repeat;
+	margin: -20px -40px auto -40px;
+	text-align: center;
+	padding: 20px;
+	height: 180px;
+	width: 240px;
+}
+#links {
+	margin: 50px -40px auto -40px;
+	background-color: #E2E2E2;
+	text-align: center;
+	padding: 20px;
+}
+#footer {
+	margin: -8px -8px auto -8px;
+	background-color: #2D2D2D;
+	vertical-align: middle;
+	position: relative;
+	text-align: center;
+	padding: 1px;
+	bottom: -8px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+#header a,p,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	text-align: center;
+    vertical-align: center;
+	text-decoration: none;
+}
+#links a,p,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2E2E2E;
+	font-size: 16px;
+    vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+}
+#main a,p,h1,h2,h3,h4,h5,h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2D2D2D;
+	text-decoration: none;
+	text-align: center;
+}
+#footer p { font-size: 12px; color: #FFFFFF; }
+/*--------------------------------------------*/
+#header a,a:link,a:active,a:visited	{
+	background-color: #FFFFFF;
+	color: #8D8E8E;
+	text-decoration: none;
+	padding: 14px;
+}
+#header a:hover	{
+	background-color: #FFFFFF;
+	color: #FE6605;
+	text-decoration: none;
+	padding: 14px;
+	border-bottom-style: solid;
+	border-bottom-color: #FE6605;
+}
+/*--------------------------------------------*/
+#main a,a:link,a:active,a:visited	{
+	text-decoration: none;
+	color: #2D2D2D;
+}
+#main a:hover {
+	text-decoration: underline;
+	color: #FE6605;
+}
+/*--------------------------------------------------------------------------------------------------*/
+#main p {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	text-align: justify;
+	font-size: 16px;
+}
+#main h1 { font-size: 28px; }
+#main h2 { font-size: 26px; }
+#main h3 { font-size: 24px; }
+#main h4 { font-size: 22px; }
+#main h5 { font-size: 20px; }
+#main h6 { font-size: 18px; }
+/*--------------------------------------------------------------------------------------------------*/
+#main a,a:link	{ color: #2D2D2D; text-decoration: none; }
+#main a:active	{ color: #2D2D2D; text-decoration: none; }
+#main a:visited	{ color: #2D2D2D; text-decoration: none; }
+#main a:hover	{ color: #8D8E8E; text-decoration: underline; }
+/*--------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------------*/
+#links a,a:link	{ color: #2E2E2E; text-decoration: none; background-color: #F5F5F5; }
+#links a:active	{ color: #2E2E2E; text-decoration: none; background-color: #FE6605; }
+#links a:visited{ color: #2E2E2E; text-decoration: none; background-color: #E2E2E2; }
+#links a:hover	{ color: #FFFFFF; text-decoration: none; background-color: #FE6605; }
