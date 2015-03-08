@@ -14,21 +14,21 @@ p  { font-size: 16px; }
 /*--------------------CABEÇALHO--------------------*/
 #header {
 	margin: -32px -32px 24px -32px;
-	background-color: #2D2D2D;
-	border: solid 1px #2D2D2D;
+	background-color: #E2E2E2;
+	border: solid 1px #E2E2E2;
 	text-align: center;
 	padding: 1px;
 }
 #header a,a:link,a:active {
 	text-decoration: none;
-	color: #FFFFFF; /*#2D2D2D*/
+	color: #666666; /*#2D2D2D*/
 	margin: -2px;
 	padding: 18px;
 }
 #header a:hover {
 	text-decoration: none;
 	background-color: #FFFFFF;
-	color: #000000;
+	color: #1398ec;
 	margin: -2px;
 	padding: 18px;
 }
@@ -39,7 +39,7 @@ p  { font-size: 16px; }
 	padding: 32px;
 	width: 640px;
 	background-color: #FFFFFF;
-	border: solid 1px #2D2D2D;
+	border: solid 1px #E2E2E2;
 }
 #main h1,h2,h3,h4,h5,h6 {
 	text-align: center;
@@ -56,7 +56,7 @@ p  { font-size: 16px; }
 }
 #conteudo a:hover {
 	text-decoration: none;
-	color: #FE0605;
+	color: #1398ec;
 	padding: 0px;
 	margin: 0px;
 }
