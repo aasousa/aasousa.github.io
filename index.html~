@@ -3,6 +3,7 @@
 	<head>
 		<title>Andesson Homepage</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="/style.css"/>
 	</head>
 	<body>
 		<h2>Andesson A. Sousa</h2>
@@ -20,10 +21,8 @@
 		</p>
 		<h3>Inspiração</h3>
 		<p>
-			<i>A história está repleta de pessoas que, como resultado do medo,<br>
-			ou por ignorância, ou por cobiça de poder, destruiram conhecimentos<br>
-			de imensurável valor que em verdade perteciam a todos nós.<br>
-			Nós não devemos deixar isso acontecer de novo.</i> [Carl Sagan]
+			"<i>A humildade é o primeiro degrau para a sabedoria.</i>"
+			 <b>São Tomás de Aquino</b>
 		</p>
 	</body>
 </html>
