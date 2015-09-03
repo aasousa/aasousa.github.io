@@ -1,13 +1,62 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,400italic,600italic,700italic,800italic,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic|Droid+Sans:400,700);
 
 body {
+	background-color: #efefef;
+}
+#header {
+	margin: 0px auto 24px -8px; padding: 12px;
+	vertical-align: middle; text-align: center;
+	font-family: 'Roboto', sans-serif;
+	position: fixed; top: 0px; z-index: 100;
+	width: 100%; height: 20px;
+	background-color: #FBBC05;
+}
+#main {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px; color: #444;
 	text-align: center;
-	background-color: #efefef;
 	margin: 0 auto; position: relative;
 	width: 460px; height: 200px;
 	padding-top: 10%;
+}
+#main h1,h2,h3,h4,h5,h6 {
+	font-size: 20px;
+}
+#blog {
+	font-family: 'Open Sans', sans-serif;
+	margin: 64px auto; position: relative;
+	font-size: 14px; color: #444;
+	width: 460px; height: 200px;
+	text-align: center;
+}
+#blog h1 { font-size: 28px ; }
+#blog h2 { font-size: 26px ; }
+#blog h3 { font-size: 24px ; }
+#blog h4 { font-size: 22px ; }
+#blog h5 { font-size: 20px ; }
+#blog h6 { font-size: 18px ; }
+#blog p  { font-size: 14px ; }
+p.post   { text-align: left; }
+a.HeaderBlogLink:visited{ color: #FFF; }
+a.HeaderBlogLink:active	{ color: #FFF; }
+a.HeaderBlogLink:link {
+	text-decoration: none; color: #FFFFFF;
+	margin: auto; padding: 10px;
+}
+a.HeaderBlogLink:hover {
+	text-decoration: none; color: #F0F0F0;
+}
+a.HeaderActive:visited { color: #FFFFFF; }
+a.HeaderActive:active  { color: #FFFFFF; }
+a.HeaderActive:link {
+	margin: auto; padding: 10px;
+	border-bottom: 3px solid #FFFFFF;
+	text-decoration: none; color: #FFFFFF;
+}
+a.HeaderActive:hover {
+	border-bottom: 3px solid #FFFFFF;
+	text-decoration: none; color: #F0F0F0;
 }
 img.ProfilePost {
 	width: 50px; height: 50px;
