@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,400italic,600italic,700italic,800italic,300italic,300);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic|Droid+Sans:400,700);
-
+@import url(https://fonts.googleapis.com/css?family=Alegreya);
 body {
 	background-color: #efefef;
 }
 #header {
 	margin: 0px auto 24px -8px; padding: 12px;
 	vertical-align: middle; text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	position: fixed; top: 0px; z-index: 100;
 	width: 100%; height: 20px;
 	background-color: #FBBC05;
