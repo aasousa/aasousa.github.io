@@ -1,91 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
+@import url(https://fonts.googleapis.com/css?family=Alegreya);
 @media all {
 	body {
-		font: normal 100% 'Open Sans', sans-serif;
+		font: normal 100% 'Alegreya', sans-serif;
 		background-color: #FEFEFE;
-		color: #000000;
-		padding: .6em;
-		-webkit-font-smoothing: antialiased;
+		padding: 0.6em;
 	}
-	/* Classe Principal */
+	* { -webkit-font-smoothing: antialiased; }
 	.container {
 		overflow: hidden;
 		padding: 0 1em;
 		max-width: 32.5em;
 		margin: auto;
 	}
-	/* Ano */
-	h2 {
-		font-family: 'Open Sans', sans-serif;
-		text-transform: uppercase;
-		font-weight: normal;
-		font-size: 2em;
-		color: #585858;
-		text-align: left;
-		margin: 0 .05em 0 0;
-		letter-spacing: .1em;
-	}
-	/* Mês */
-	h4 {
-		font-family: 'Open Sans', sans-serif;
-		text-transform: uppercase;
-		font-weight: normal;
-		font-size: 1.5em;
-		color: #696969;
-		text-align: left;
-		margin-top: 1em;
-		line-height: 1.3em;
-	}
-	/* Título */
-	h6 {
-		font-family: 'Open Sans', sans-serif;
-		font-weight: normal;
-		font-size: 1em;
-		color: #222222;
-		line-height: 1.4em;
-		margin-top: 1.5em;
-		text-align: left;
-	}
-	/* Parágrafo Padrão */
+	/* Fonte dos títulos */
+	h1, h2, h3, h4, h5, h6 { font: normal 100% 'Alegreya', sans-serif; margin-bottom: -.6em; color: #666; }
+	/* Tamanho da fonte dos títulos */
+	h1 { font-size: 2.0em; }
+	h2 { font-size: 1.8em; }
+	h3 { font-size: 1.6em; }
+	h4 { font-size: 1.4em; }
+	h5 { font-size: 1.2em; }
+	h6 { font-size: 1.0em; }
+	/* Linha */
+	.foot { color: #333; font-size: 1.2em; text-align: center; margin-top: 1em; padding-top: 1em; }
+	.line { border-bottom: 1px solid #F0F0F0; margin-bottom: -1em; }
+	/* links */
+	a:link		{ text-decoration: none; color: #333; }
+	a:visited	{ text-decoration: none; color: #333; }
+	a:hover		{ text-decoration: none; color: #999; }
 	p {
-		font-family: 'Alegreya', serif;
-		font-size: 1.2em;
-		color: #333333;
-		line-height: 1.5em;
-		margin: .7em 0 1em 0;
-		font-style: normal;
-		font-weight: normal;
-		-webkit-font-smoothing: antialiased;
-		text-align: justify;
-	}
-	/* Tabela Padrão */
-	table {
-		font-family: 'Open Sans', sans-serif;
+		font: normal 100% 'Alegreya', sans-serif;
 		font-size: 1em;
-		color: #333333;
-		line-height: 1.5em;
-		margin: .7em 0 1em 0;
-		font-style: normal;
-		font-weight: 300;
-		-webkit-font-smoothing: antialiased;
+		color: #777;
 	}
-	/* Links Padrão */
-	a:link {
-		color: #111111;
-		text-decoration: none;
-		border-width: 0;
-		border-style: none;
-	}
-	a:visited {
-		color: #111111;
-		text-decoration: none;
-		border: 0 none;
-	}
-	a:hover {
-		color: #dedede;
-		text-decoration: none;
-		border: 0 none;
-	}
-	.line { border-bottom: 1px solid #efefef; line-height: 1em; }
+	/* Listas */
+	ul.list { list-style-type: none; font-size: 1em; }
+	ol.list { list-style-type: none; font-size: 1em; }
+	li.list { list-style-type: none; font-size: 1em; }
 }
