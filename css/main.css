@@ -146,9 +146,8 @@
 		font-weight: bold;
 		color: #000000;
 	}
-	h6.auth {
+	.auth {
 		margin-top: -1em;
-		padding-top: 1em;
 	}
 	/* Imagem Padrão */
 	img a {
