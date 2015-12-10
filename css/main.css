@@ -208,8 +208,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 		-webkit-font-smoothing: antialiased;
 		text-align: justify;
 	}
-	.post a:link	{ color: #303030; text-decoration: none; }
-	.post a:visited { color: #303030; text-decoration: none; }
+	.post a:link	{ color: #000000; text-decoration: none; }
+	.post a:visited { color: #000000; text-decoration: none; }
 	.post a:hover	{ color: #999999; text-decoration: none; }
 	.post ol { list-style-type: decimal; }
 	.post ul { list-style-type: none; }
