@@ -271,8 +271,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 	}
 	.container { display: block }
 	.post { display: block }
+	.foot { display: block }
 	.head { display: none }
-	.foot { display: none }
 }
 /* for iPad-sized devices */
 @media only screen and (max-device-width: 800px) {
