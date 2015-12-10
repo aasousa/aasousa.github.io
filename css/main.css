@@ -1,53 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Alegreya);
 
-/* css reset */
-
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+/* -------------------- css reset -------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, 
+h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, 
+address, big, cite, code, del, dfn, em, img, ins, kbd, 
+q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, 
+label, legend, table, caption, tbody, tfoot, thead, tr, 
+th, td, article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, output, 
+ruby, section, summary, time, mark, audio, video {
+margin: 0; padding: 0; border: 0; font-size: 100%;
+font: inherit; vertical-align: baseline; }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; } ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
 blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* end css reset */
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+/* -------------------- end reset -------------------- */
 
 @media all {
 	body {
@@ -114,9 +88,10 @@ table {
 	/* Classe Principal */
 	.container {
 		overflow: hidden;
-		padding: 0 1em;
 		max-width: 32.5em;
-		margin: auto;
+		margin: 0 auto;
+		padding-top: 2em;
+		padding-bottom: 2em;
 	}
 	/* Título do Blog */
 	h1 {
@@ -210,31 +185,6 @@ table {
 		-o-transition: all 1s ease;
 		transition: all 1s ease;
 	}
-	h6 strong {
-		font-weight: bold;
-		color: #000000;
-	}
-	/* Imagem Padrão */
-	img a {
-		border: 0
-	}
-	img {
-		width: 100px;
-		border: 0;
-		padding: 3px;
-	}
-	/* Parágrafo Padrão */
-	p {
-		font-family: 'Alegreya', serif;
-		font-size: 1.2em;
-		color: #333333;
-		line-height: 1.5em;
-		margin: .7em 0 1em 0;
-		font-style: normal;
-		font-weight: normal;
-		-webkit-font-smoothing: antialiased;
-		text-align: justify;
-	}
 	/* Tabela Padrão */
 	table {
 		font-family: 'Open Sans', sans-serif;
@@ -246,76 +196,24 @@ table {
 		font-weight: 300;
 		-webkit-font-smoothing: antialiased;
 	}
-	/* Links Padrão */
-	a:link {
-		color: #111111;
-		text-decoration: none;
-		border-width: 0;
-		border-style: none;
-	}
-	a:visited {
-		color: #111111;
-		text-decoration: none;
-		border: 0 none;
-	}
-	a:hover {
-		color: #dedede;
-		text-decoration: none;
-		border: 0 none;
-	}
 	/* Estilo dos Posts */
-	/* Negrito */
-	.post strong { font-weight: bold }
-	/* Itálico */
-	.post em { font-style: italic }
-	/* Links do Post */
-	.post a:link {
-		color: #303030;
-		text-decoration: none;
-		border-width: 0 0 1px 0;
-		border-style: none none solid none;
-		border-color: #c0c0c0;
-	}
-	.post a:visited {
-		color: #303030;
-		text-decoration: none;
-		border-width: 0 0 1px 0;
-		border-style: none none solid none;
-		border-color: #c0c0c0;
-	}
-	.post a:hover {
-		color: #999999;
-		border-width: 0 0 1px 0;
-		border-style: none none solid none;
-		border-color: #c0c0c0;
-		text-decoration: none;
-	}
-	.post ul {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 1em;
+	p {
+		font-family: 'Alegreya', serif;
+		font-size: 1.2em;
+		color: #333333;
 		line-height: 1.5em;
-		list-style-type: disc;
-		padding: .1em .0 0 1.1em;
-		margin-top: .5em;
-		margin-bottom: 1em;
+		margin: .7em 0 1em 0;
+		font-style: normal;
 		font-weight: normal;
 		-webkit-font-smoothing: antialiased;
+		text-align: justify;
 	}
-	.post ol {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 1em;
-		line-height: 1.5em;
-		list-style-type: decimal;
-		padding: .1em 0 0 1.2em;
-		margin-top: .5em;
-		margin-bottom: 1em;
-		font-weight: normal;
-		-webkit-font-smoothing: antialiased;
-	}
-	.post li {
-		padding: .2em 0 0 0;
-		color: #333;
-	}
+	.post a:link	{ color: #303030; text-decoration: none; }
+	.post a:visited { color: #303030; text-decoration: none; }
+	.post a:hover	{ color: #999999; text-decoration: none; }
+	.post ol { list-style-type: decimal; }
+	.post ul { list-style-type: none; }
+	.post li { list-style-type: none; }
 	.post li strong { font-weight: bold }
 	.post blockquote {
 		font-family: 'Open Sans', sans-serif;
@@ -325,9 +223,6 @@ table {
 		margin: 1.8em .8em;
 		padding: 0 1em 0 1em;
 	}
-	.post {
-		margin-top: 1.6em;
-	}
 	/* Linha no final do post */
 	.line { border-bottom: 1px solid #efefef; line-height: 2.5em; }
 	/* Navegação */
@@ -336,7 +231,7 @@ table {
 		font-family: 'Open Sans', sans-serif;
 		text-transform: uppercase;
 		color: #585858;
-		font-size: .6em;
+		font-size: .7em;
 		letter-spacing: .2em;
 		font-weight: bold;
 		margin-top: 0;
@@ -347,12 +242,23 @@ table {
 		overflow: hidden;
 		display: block;
 	}
+	.foot p {
+		font-family: 'Open Sans', sans-serif;
+		text-transform: uppercase;
+		font-size: .8em;
+		text-align: center;
+		color: #333333;
+		display: block;
+		margin: 0 auto;
+		padding-bottom: 2em;
+	}
 	.logo img {
 		width: 6em;
 		-webkit-opacity: 0.70;
 		-moz-opacity: 0.70;
 		opacity: 0.70;
 	}
+	.line { border-bottom: 1px solid #F0F0F0; margin-bottom: -1em; }
 }
 @media print {
 	body {
