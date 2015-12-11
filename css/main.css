@@ -375,7 +375,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 	h4 { font-size: 1em; }
 	h5 { font-size: 1em; }
 	h6 { font-size: 1em; }
-	.post p { font-size: 2em; margin-top: 1em; }
+	.post p { font-size: 2em; margin-top: 1em; text-align: left; }
 	.foot p { font-size: 1em; }
 	.head a { font-size: 3em; }
 }
