@@ -1,0 +1,29 @@
+* {
+	font-family: monospace;
+	text-align: justify;
+	font-size: 12px;
+	width: 400px;
+}
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+img.profile {
+	width: 100px;
+}
+a.header:link, a.header:visited {
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 2px;
+}
+a.header:hover, a.header:active {
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+}
+p.foot {
+	border-top: 1px solid black;
+}
